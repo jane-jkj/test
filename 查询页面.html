@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>查询页面</title>
+    <style>
+        /* 清除页面默认值 */
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* 背景设置 */
+        
+        body {
+            background-image: url(images/hn.jpg);
+            background-repeat: no-repeat;
+            background-position: left top;
+            background-attachment: fixed;
+        }
+        
+        .text {
+            width: 512px;
+            height: 16px;
+            padding: 12px 16px;
+            font-size: 16px;
+            margin: 150px 0 0 350px;
+            vertical-align: top;
+            outline: 0;
+            border-radius: 10px 0 0 10px;
+            border: 2px solid #c4c7ce;
+            background: #fff;
+            color: #222;
+            overflow: hidden;
+        }
+        
+        .bg {
+            cursor: pointer;
+            width: 108px;
+            height: 44px;
+            line-height: 45px;
+            padding: 0;
+            margin-top: 150px;
+            background: 0 0;
+            background-color: #4e6ef2;
+            border-radius: 0 10px 10px 0;
+            font-size: 17px;
+            border: none;
+            outline: 0;
+            color: 黑色;
+            font-weight: 400;
+            font-family: 微软雅黑;
+            box-shadow: 2px 2px 2px black;
+            overflow: hidden;
+        }
+        
+        .a {
+            text-decoration: none;
+        }
+        
+        .type {
+            font-size: 0;
+        }
+        
+        .bottom {
+            width: 100%;
+            min-width: 1250px;
+            position: fixed;
+            z-index: 302;
+            bottom: 0;
+            left: 0;
+            height: 40px;
+            overflow: hidden;
+            zoom: 1;
+            margin: 0;
+            background-color: #fbfbfb;
+            text-align: left;
+            line-height: 40px;
+            box-shadow: 2px -1px 2px black;
+        }
+        
+        .bottom-left {
+            float: left
+        }
+        
+        .bottom-right {
+            float: right
+        }
+        
+        .bottom-left a {
+            font-size: 12px;
+            color: #9195a3;
+            text-decoration: none;
+            margin: 2px 20px;
+        }
+        
+        .bottom-left a:hover {
+            color: black;
+        }
+        
+        .bottom-right span {
+            font-size: 12px;
+            color: #9195a3;
+            margin: 2px 20px;
+        }
+        
+        .bottom-right a {
+            font-size: 12px;
+            color: #9195a3;
+            text-decoration: none;
+            margin: 2px 20px;
+        }
+        
+        .bottom-right a:hover {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="images/logo.png" alt="block">
+
+        <div class="type">
+            <input type="text" class="text" value="请放入图片"> <input type="submit" class="bg" value="检查图片">
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="bottom-left">
+            <a href="#">关于我们</a>
+            <a href="#">小组成员:</a>
+            <a href="#">a</a>
+            <a href="#">b</a>
+            <a href="#">c</a>
+            <a href="#">d</a>
+        </div>
+        <div class="bottom-right">
+            <span>2020</span>
+            <a href="https://ha.hainanu.edu.cn/home2020/" target="_blank">海南大学</a>
+            <span>计算机与网络空间安全学院</span>
+            <span>***</span>
+        </div>
+
+    </div>
+</body>
+
+</html>
